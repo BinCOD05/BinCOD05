@@ -1,10 +1,16 @@
-- 👋 Hi, I’m @BinCOD05
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+public class BinhNguyen {
 
-<!---
-BinCOD05/BinCOD05 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+  private String role = "Backend Engineer";
+  private String focus = "Spring Backend + DevOps";
+
+  private List<String> stack = List.of(
+    "Java 17+", "Spring Boot",
+    "Docker", "Kubernetes",
+    "Mysql", "Redis",
+    "Jenkins", "GitHub Actions"
+  );
+
+  public String getGoal() {
+    return "Ship reliable systems";
+  }
+}
